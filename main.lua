@@ -23,7 +23,7 @@ local textObject
 
 --create the text object at position (300, 500) with
 --a size 50 font
-textObject = display.newText ("Hello Ryoma!", 100, 30, nil, 50)
+textObject = display.newText ("Hello Bassim!", 100, 30, nil, 50)
 
 --anchor the textObject from the top left corner
 textObject.anchorX = 0
