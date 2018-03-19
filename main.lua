@@ -38,3 +38,9 @@ local textObjectSignature
 
 -- sign my name
 textObjectSignature = display.newText ("By Ryoma", display.contentCenterX, display.contentCenterY, nil, 50)
+
+--create local variables for sounds
+
+local ukulele = audio.loadSound( "Sounds/ukulele.mp3" ) -- Setting a variable to an 
+--mp3 file
+local ukuleleChannel
