@@ -23,7 +23,7 @@ local textObject
 
 --create the text object at position (300, 500) with
 --a size 50 font
-textObject = display.newText ("Hello Billy", 100, 30, nil, 50)
+textObject = display.newText ("Hello Billy!", 100, 30, nil, 50)
 
 
 --anchor the textObject from the top left corner
@@ -41,6 +41,6 @@ textObjectSignature = display.newText ("By Ryoma", display.contentCenterX, displ
 
 --create local variables for sounds
 
-local ukulele = audio.loadSound( "Sounds/ukulele.mp3" ) -- Setting a variable to an 
---mp3 file
-local ukuleleChannel
+local correctSound = audio.loadSound("Sounds/ukulele.mp3")
+local correctSoundChannel
+correctSoundChannel = audio.play(correctSound)
